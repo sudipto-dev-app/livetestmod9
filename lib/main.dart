@@ -39,7 +39,7 @@ class _SizeSelectorScreenState extends State<SizeSelectorScreen> {
     return ElevatedButton(
       onPressed: () => handleSizeSelection(size),
       style: ElevatedButton.styleFrom(
-        backgroundColor: selectedSize == size ? Colors.green : Colors.blue, // Change color if selected
+        backgroundColor: selectedSize == size ? Colors.green : Colors.blue,
         padding: EdgeInsets.all(10),
       ),
       child: Text(size),
