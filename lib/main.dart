@@ -35,7 +35,6 @@ class _SizeSelectorScreenState extends State<SizeSelectorScreen> {
     );
   }
 
-  // Create a button widget
   Widget createSizeButton(String size) {
     return ElevatedButton(
       onPressed: () => handleSizeSelection(size),
