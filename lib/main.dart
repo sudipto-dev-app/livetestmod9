@@ -19,15 +19,15 @@ class SizeSelectorScreen extends StatefulWidget {
 }
 
 class _SizeSelectorScreenState extends State<SizeSelectorScreen> {
-  String selectedSize = ''; // Store the selected size
+  String selectedSize = '';
 
-  // Define a function to handle button taps
+
   void handleSizeSelection(String size) {
     setState(() {
       selectedSize = size;
     });
 
-    // Show a Snackbar with the selected size
+
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text('Selected Size: $size'),
